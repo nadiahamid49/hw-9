@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common css start */
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* common css end */
+
+#primary-nav{
+    background-color: #02918c;
+    padding: 26px 0;
+    text-align: center;
+}
+#primary-nav ul li a{
+    color: #ffffff;
+    padding: 0 25px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 800;
+}
